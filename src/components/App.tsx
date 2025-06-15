@@ -7,7 +7,7 @@ import NewsletterPreview from './NewsletterPreview';
 import PricingModal from './PricingModal';
 import GenerationLimitBanner from './GenerationLimitBanner';
 import SubscriptionBadge from "./SubscriptionBadge";
-import AdvancedChartShowcase from './components/charts/AdvancedChartShowcase';
+import AdvancedChartShowcase from './charts/AdvancedChartShowcase';
 import { useSubscription } from './hooks/useSubscription';
 import { SubscriptionTier } from './types/subscription';
 
