@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { FileText, Zap, Database, Mail, Github, ExternalLink, Settings, Crown } from 'lucide-react';
 import QuickDemo from './QuickDemo';
-import DataUpload from './components/DataUpload';
-import SampleDataViewer from './components/SampleDataViewer';
-import NewsletterPreview from './components/NewsletterPreview';
-import PricingModal from './components/PricingModal';
-import GenerationLimitBanner from './components/GenerationLimitBanner';
-import SubscriptionBadge from './components/SubscriptionBadge';
+import DataUpload from './DataUpload';
+import SampleDataViewer from './SampleDataViewer';
+import NewsletterPreview from './NewsletterPreview';
+import PricingModal from './PricingModal';
+import GenerationLimitBanner from './GenerationLimitBanner';
+import SubscriptionBadge from "./SubscriptionBadge";
 import AdvancedChartShowcase from './components/charts/AdvancedChartShowcase';
 import { useSubscription } from './hooks/useSubscription';
 import { SubscriptionTier } from './types/subscription';
