@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FileText, Zap, Database, Mail, Github, ExternalLink, Settings, Crown } from 'lucide-react';
-import QuickDemo from './components/QuickDemo';
+import QuickDemo from './QuickDemo';
 import DataUpload from './components/DataUpload';
 import SampleDataViewer from './components/SampleDataViewer';
 import NewsletterPreview from './components/NewsletterPreview';
