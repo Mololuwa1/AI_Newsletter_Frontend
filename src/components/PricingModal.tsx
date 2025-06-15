@@ -1,6 +1,6 @@
 import React from 'react';
 import { X, Check, Crown, Zap, Star } from 'lucide-react';
-import { subscriptionPlans } from "../subscriptionPlans";
+import { subscriptionPlans } from '../data/subscriptionPlans';
 import { SubscriptionTier } from '../types/subscription';
 
 interface PricingModalProps {
